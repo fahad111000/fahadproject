@@ -1,0 +1,377 @@
+@media (max-width:1024px) {
+
+    /* Utilites Classes */
+
+    h1 {
+        font-weight: 700;
+        font-size: 56px;
+        color: #c2133c;
+        margin-bottom: 40px;
+
+    }
+
+
+    h4 {
+        color: #81676d;
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--primary-color);
+
+    }
+
+
+    /*----Get Started section----- */
+
+    .get-started-section h2 {
+        font-weight: 600;
+        font-size: 50px;
+        color: var(--font-color);
+
+    }
+
+
+    /*----About Us section----- */
+
+
+    .about-us img {
+        width: 500px;
+        height: 500px;
+    }
+
+
+    .about-us .main-bnt {
+        width: 200px;
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+
+    /* 
+-------------------------------------
+         Contact us section
+-------------------------------------
+*/
+
+    .contact-us .chat p {
+        font-size: 15px;
+        color: var(--font-color);
+    }
+
+    .contact-us .icons i {
+        font-size: 30px;
+        border-radius: 0;
+        padding: 0 0 0 10px;
+        margin-left: 10px;
+    }
+
+    .contact-us form {
+        padding: 10px;
+    }
+
+}
+
+/* ==============================================
+   ==============================================
+*/
+
+
+@media(max-width:768px) {
+
+    /* navbar */
+    .navbar ul li a {
+        font-size: 18px;
+        margin: 0 26px;
+        color: var(--font-color);
+
+    }
+
+
+    /* 
+-------------------------------------
+         Projects section
+-------------------------------------
+*/
+
+    .project-section h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #51121d;
+    }
+
+
+
+
+    /*----About Us section----- */
+
+    .about-us img {
+        width: 100%;
+    }
+
+    .about-us .row-2 {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    /* 
+-------------------------------------
+         Contact us section
+-------------------------------------
+*/
+    .contact-us .chat p {
+        font-size: 18px;
+        color: var(--font-color);
+    }
+
+    .contact-us form {
+        padding: 100px;
+    }
+
+    .contact-us .icons i {
+        font-size: 40px;
+        border-radius: 0;
+        padding: 0 0 0 20px;
+        margin-left: 10px;
+    }
+}
+
+/* ==============================================
+   ==============================================
+*/
+
+@media (max-width:425px) {
+
+    /* 
+-------------------------------------
+         Navbar section
+-------------------------------------
+*/
+
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+        color: #c2133c;
+        margin-bottom: 40px;
+
+    }
+
+    P {
+        font-size: 17px;
+        line-height: 24px;
+        color: #f4eeee;
+        padding-bottom: 10px;
+
+    }
+
+    .navigation-bar .navbar-toggler {
+        box-shadow: 0 0 3px #fff;
+    }
+
+
+    /* 
+-------------------------------------
+         Project section
+-------------------------------------
+*/
+    .project-section h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #51121d;
+    }
+
+    .project-section span {
+        padding: 5px 5px;
+        background: var(--primary-color);
+        color: var(--font-color);
+        font-size: 22px;
+    }
+
+
+    /* 
+-------------------------------------
+         Get Started section
+-------------------------------------
+*/
+    .get-started-section h2 {
+        font-weight: 400;
+        font-size: 50px;
+        color: var(--font-color);
+
+    }
+
+    .get-started-section p {
+        color: var(--font-color);
+        font-size: 15px;
+    }
+
+    .get-started-section .main-bnt {
+        width: 50%;
+
+    }
+
+    /* 
+-------------------------------------
+         About us  section
+-------------------------------------
+*/
+
+    .about-us img {
+        width: auto;
+        height: auto;
+    }
+
+    /* 
+-------------------------------------
+         Contact US  section
+-------------------------------------
+*/
+
+    .contact-us i {
+        box-shadow: 0 0 2px 1px var(--secondry-color);
+        font-size: 20px;
+        padding: 15px;
+        background: var(--secondry-color);
+        color: var(--font-color);
+        border-radius: 50%;
+
+    }
+
+    .contact-us .chat {
+        background-color: var(--secondry-color);
+        text-align: left;
+        padding: 40px;
+    }
+
+    .contact-us .icons i {
+        font-size: 30px;
+        border-radius: 0;
+        padding: 10px 0 0 10px;
+        margin-left: 10px;
+    }
+
+    .contact-us form {
+        padding: 50px 10px;
+    }
+
+    .contact-us .main-bnt {
+        width: 100%;
+    }
+
+    .contact-us label {
+        color: var(--secondry-color);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+}
+
+/* 
+==============================================
+==============================================
+*/
+
+@media (max-width:320px) {
+
+    .project-section h2 {
+        font-size: 25px;
+    }
+
+    .project-section span {
+        font-size: 15px;
+    }
+
+    /* 
+-------------------------------------
+         Get Started section
+-------------------------------------
+*/
+    .get-started-section h2 {
+        font-weight: 400;
+        font-size: 30px;
+        color: var(--font-color);
+
+    }
+
+    .get-started-section p {
+        color: var(--font-color);
+        font-size: 13px;
+    }
+
+    .get-started-section .main-bnt {
+        width: 40%;
+        padding: 7px 7px;
+        font-size: 16px;
+
+    }
+
+    /* 
+-------------------------------------
+         About Us section
+-------------------------------------
+*/
+    .about-us .main-bnt {
+        width: 40%;
+        padding: 7px 7px;
+        font-size: 16px;
+    }
+
+    /* 
+-------------------------------------
+         Contact US  section
+-------------------------------------
+*/
+
+
+
+    .contact-us .chat {
+        background-color: var(--secondry-color);
+        text-align: left;
+        padding: 40px;
+    }
+
+    .contact-us .icons i {
+        font-size: 22px;
+        padding: 10px 0 0 4px;
+    }
+
+    .contact-us form {
+        padding: 50px 10px;
+    }
+
+    .contact-us .main-bnt {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+
+
+
+    /* 
+-------------------------------------
+         Footer section
+-------------------------------------
+*/
+
+    .footer-section .icons a i {
+        color: #fff;
+        font-size: 26px;
+        margin: 40px 0 30px 30px;
+    }
+
+    .sub-footer {
+        background: var(--secondry-color);
+    }
+
+    .sub-footer p {
+        background: #15171a;
+        line-height: none;
+        margin: 0;
+        padding: 10px 0;
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+
+}

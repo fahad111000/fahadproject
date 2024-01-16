@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:#A82c48;
+    --secondry-color:#51121d;
+    --third--color:#fff;
+    --forth-color:#555;
+    --font-color:#fff;
+    --black-color:#000;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 66px;
+    color: #c2133c;
+    margin-bottom: 40px;
+    
+}
+
+
+
+h4{
+    color:#81676d;
+    font-size: 29px;
+    font-weight: 700;
+    color: var(--primary-color);
+    
+}
+
+
+span{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+P{
+    font-size: 17px;
+    line-height: 32px;
+    color: #dbd1d1;
+    padding-bottom: 30px;
+    
+}
+
+.main-bnt{
+    font-size: 20px;
+    padding: 15px 10px;
+    display: block;
+    font-weight: 500;
+    background: var(--secondry-color);
+    color: var(--font-color);
+    line-height: 25px;
+    border: 3px solid var(--secondry-color);
+    outline: none;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.main-bnt:hover{
+    background: #fff;
+    color: var(--secondry-color);
+}
+
+hr{
+    padding-bottom: 60px;
+    margin-top: 0;
+}
+
+/* 
+-------------------------------------
+         Header
+-------------------------------------
+*/
+
+.navigation-bar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: var(--secondry-color);
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    margin: 0 30px;
+    color: var(--font-color);
+    
+}
+.navbar ul li a:hover{
+    color: var(--primary-color);
+}
+
+.navigation-bar .navbar-toggler{
+    /* box-shadow: none; */
+    color: #fff;
+}
+
+
+/* 
+-------------------------------------
+         Banner Section
+-------------------------------------
+*/
+
+
+.banner-section{
+    background-image: linear-gradient(130deg, rgba(0,0,0,0.70), rgb(0,0,0, 0.45)),url(images/bg-2.jpg) ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px;
+}
+
+/* 
+-------------------------------------
+         Project section
+-------------------------------------
+*/
+
+.project-section{
+    padding: 140px 0;
+
+}
+
+.project-section span{
+    padding: 4px 10px;
+    background: var(--primary-color);
+    color: var(--font-color);
+}
+
+.project-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #51121d;
+}
+
+.project-section .card i{
+    text-align: center;
+    font-size: 50px;
+    color: var(--secondry-color);
+}
+
+.project-section .card{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.project-section .card:hover{
+    box-shadow: 1px 2px 10px 1px rgb(161, 157, 157);
+    transform: translateZ(34px);
+}
+
+
+
+/* 
+-------------------------------------
+         Get started section
+-------------------------------------
+*/
+
+.get-started-section{
+    padding: 30px 0;
+    background-color:var(--secondry-color);
+}
+
+.get-started-section h2{
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--font-color);
+}
+
+.get-started-section p{
+    color: var(--font-color);
+}
+
+.get-started-section .main-bnt{
+    background-color: var(--secondry-color);
+    border: 2px solid var(--font-color);
+    width: 20%;
+
+}
+
+.get-started-section .main-bnt:hover{
+    color: var(--black-color);
+    background: var(--font-color);
+}
+
+/* 
+-------------------------------------
+         About us section
+-------------------------------------
+*/
+
+
+
+.about-us{
+    padding: 200px 0;
+}
+
+.about-us h1{
+    color: var(--secondry-color);
+    font-weight: 700;
+
+}
+
+.about-us h4{
+    color: var(--secondry-color);
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.about-us p{
+    color: var(--forth-color);
+    font-size: 20px;
+}
+
+.about-us .content{
+    padding:  10px 30px;
+}
+
+/* 
+-------------------------------------
+         Contact us section
+-------------------------------------
+*/
+
+
+
+.contact-us{
+    padding: 10px 0 50px 0;
+    background: rgba(249, 215, 215, 0.097);
+}
+
+.contact-us h1{
+    color: var(--secondry-color);
+    font-weight: 700;
+    padding-bottom:5px;
+
+}
+
+
+.contact-us i{
+    box-shadow: 0 0 2px 1px var(--secondry-color);
+    font-size: 20px;
+    padding: 15px;
+    background: var(--secondry-color);
+    color: var(--font-color);
+    border-radius: 50%;
+    
+}
+
+
+
+/* Row-2 --------------- */
+.contact-us .row-2{
+    margin: 100px 0 0 0;
+    box-shadow: 0 0 5px  var(--secondry-color);
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.contact-us .chat{
+    background-color: var(--secondry-color);
+    text-align: center;
+    padding: 100px;
+    position: relative;
+}
+
+.contact-us .chat h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.contact-us .chat p{
+    margin-top: 40px;
+    color: var(--font-color);
+}
+
+
+.contact-us form{
+    padding: 100px;
+}
+.contact-us input{
+    width: 100%;
+    
+}
+.contact-us input:focus{
+    border-color: var(--secondry-color);
+    box-shadow: 0 0 3px var(--secondry-color);
+}
+
+.contact-us label{
+    color: var(--secondry-color);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contact-us textarea:focus-visible{
+    box-shadow: 0 0 5px  var(--secondry-color);
+    border-color: var(--secondry-color);
+
+}
+
+.contact-us .main-bnt{
+    width: 50%;
+}
+
+.contact-us .icons i{
+    font-size: 30px;
+    border-radius: 0;
+    margin: 2px;
+}
+
+.contact-us .icons i:hover{
+    box-shadow: 0 0 3px #fff;
+
+}
+/* 
+-------------------------------------
+         Footer section
+-------------------------------------
+*/
+
+.footer-section{
+    background-color: #212529;
+    color: #dee2e6;
+    padding-top: 50px; 
+    margin-top: 200px;
+}
+.footer-section h4{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.footer-section ul li a{
+    color: #dee2e6;
+    font-size: 18px;
+}
+
+.footer-section .icons a i{
+    color: #fff;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.footer-section .icons a i:hover{
+    color: blue;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+
+
+.sub-footer{
+    background: var(--secondry-color);
+}
+
+
+.sub-footer p{
+    background: #15171a;
+    line-height: none;
+    margin: 0;
+    padding: 10px 0;
+    color: #ffffff;
+}
